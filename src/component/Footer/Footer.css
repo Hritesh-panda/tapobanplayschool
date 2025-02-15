@@ -1,0 +1,13 @@
+.logo-footer-img{
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    height: auto;
+    max-width: 100%;
+}
+.title{
+    color: #FFFFFF;
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
