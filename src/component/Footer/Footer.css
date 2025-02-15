@@ -1,13 +1,76 @@
-.logo-footer-img{
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-    height: 80px;
-    max-width: 100%;
+.logo-footer-img {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  height: 80px;
+  max-width: 100%;
 }
-.title{
-    color: #FFFFFF;
-    font-family: "ABeeZee", Sans-serif;
-    font-size: 32px;
-    font-weight: 700;
+.title {
+  color: #ffffff;
+  font-family: "ABeeZee", Sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.heading-2 {
+  font-family: "Nunito", Sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+.fs-18 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer-social-icon div i{
+    font-size: 10px;
+    padding: 7px;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding-left: 9px;
+    padding-right: 9px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.footer-social-icon div i:hover{
+    background-color: white;
+    color: #DB3056;
+    font-size: 12px;
+}
+
+.form-control{
+    border-radius: 5px 5px 5px 5px;
+}
+.form-control::placeholder{
+    color: rgb(184, 181, 181);
+}
+.subscribe-bnt{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #DB3056;
+    color: #ffffff;
+    min-height: 40px;   
+    width: 100%;
+    border: none;
+    transition: 0.3s;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.subscribe-bnt:hover{
+    background-color: #17BEBB;
+}
+
+@media (max-width:767px) {
+    .res-p-0{
+        padding: 0px !important;
+    }
+    .res-p-sm{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .res-mt-4{
+        margin-top: 40px;
+    }
 }
