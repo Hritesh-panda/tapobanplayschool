@@ -73,4 +73,7 @@
     .res-mt-4{
         margin-top: 40px;
     }
+    .res-flex-wrap{
+        flex-wrap: wrap;
+    }
 }

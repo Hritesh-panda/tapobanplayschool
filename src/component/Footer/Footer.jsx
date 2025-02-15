@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="container text-white pt-5 pb-5">
             <div className="row">
               <div className="col-md-3 res-p-0 res-p-sm">
-                <div className="d-flex align-items-center flex-wrap">
+                <div className="d-flex align-items-center res-flex-wrap">
                   <img
                     className="logo-footer-img"
                     src="https://playschool.ingridtemplates.com/wp-content/uploads/sites/10/elementor/thumbs/lego-blocks-oxktkzhmsrky4ynj8aul92ie1zkfsl6h3tm39scelk.png"
