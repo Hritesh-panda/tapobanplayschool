@@ -12,3 +12,6 @@
 .info-bg{
     background-color: #17BEBB;
 }
+input[type="text"]{
+    height: 45px;
+}
