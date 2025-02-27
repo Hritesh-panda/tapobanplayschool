@@ -21,6 +21,31 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+.contact-img{
+    border-radius: 20px 20px 20px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    box-shadow: none;
+    height: 350px;
+    max-width: 100%;
+}
+.contact{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 350px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: #30ACDB;
+    border-radius: 30px 30px 30px 30px;
+    color: white;
+}
+.contact .col-md-6 p{
+    margin: 0px;
+    padding: 0px;
+}
 .send-btn{
     background-color: #FB8B24;
     font-family: "Viga", Sans-serif;
