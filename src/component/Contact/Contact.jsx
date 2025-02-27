@@ -14,7 +14,40 @@ const Contact = () => {
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </p>
-        <div className="row mt-3">
+        <div className="row">
+          <div className="col-md-6">
+            <img
+              className="contact-img"
+              src="https://playschool.ingridtemplates.com/wp-content/uploads/sites/10/2020/10/child-preparing-for-school-1024x707.jpg"
+              alt=""
+            />
+          </div>
+          <div className="col-md-6">
+            <div className="row contact">
+              <div className="col-md-6">
+                <h2 className="text-white">Our Hours</h2>
+                <p className="mt-3">MON-FRI 09:00 – 19:00</p>
+                <p>SAT-SUN 10:00 – 14:00</p>
+              </div>
+              <div className="col-md-6">
+                <h2 className="text-white">Contact Us</h2>
+                <p className="mt-3">Phone: + 1 800 755 60</p>
+                <p>Email:email@email.com</p>
+              </div>
+              <div className="col-md-6">
+                <h2 className="text-white mt-5">Location</h2>
+                <p className="mt-3">887 Myrtle Dr.</p>
+                <p>Bronx, NY 16544</p>
+              </div>
+              <div className="col-md-6">
+                <h2 className="text-white mt-5">Follow Us</h2>
+                <p className="mt-3">MON-FRI 09:00 – 19:00</p>
+                <p>SAT-SUN 10:00 – 14:00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row mt-5">
           <div className="col-md-7 pe-0">
             <iframe
               title="Google Map"
