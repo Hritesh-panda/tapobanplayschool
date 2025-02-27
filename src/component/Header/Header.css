@@ -12,6 +12,119 @@
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: 75%;
+  height: 100vh;
   object-fit: cover;
+}
+.swiper-button-prev {
+  display: none !important;
+}
+.swiper-button-next {
+  display: none !important;
+}
+.swiper-pagination-bullet {
+  background: #db3056 !important;
+}
+.header_image {
+  position: relative;
+  align-items: center;
+  animation: slidezoom 4s infinite alternate ease-in-out;
+}
+@keyframes slidezoom {
+  0% {
+    transform: scale(1) translateX(0);
+  }
+  50% {
+    transform: scale(1.1) translateX(5px);
+  }
+  100% {
+    transform: scale(1) translateX(0);
+  }
+}
+.header_image-content {
+  position: absolute;
+  top: 40%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+  opacity: 0;
+  animation: fadeText 1.5s ease-in-out 0.5s forwards;
+}
+.header_image-content h4 {
+  color: #ffffff;
+  font-family: "ABeeZee", Sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.header_image-content p {
+  color: #ffffff;
+  font-family: "Nunito", Sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+.overlay-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+@keyframes fadeText {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.header_image-content button {
+  background-color: rgb(255, 157, 0);
+  font-family: "Viga", Sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .header_image-content h4 {
+    font-size: 2rem;
+  }
+  .header_image-content p {
+    font-size: 1rem;
+  }
+  .header_image-content button {
+    font-size: 0.8rem;
+  }
+  .header_image-content {
+    top: 40%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+  }
 }

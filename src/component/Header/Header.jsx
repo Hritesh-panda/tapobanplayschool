@@ -30,13 +30,49 @@ const Header = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={HeroOne} alt="NO image found" />
+          <img src={HeroOne} alt="hero1" className="header_image" />
+          <div className="overlay-content">
+            <div className="header_image-content">
+              <h4>
+                Welcome to Our <br /> Playschool
+              </h4>
+              <p>
+                we are childcare center committed to providing a safe and <br />
+                nurturing environment for your childgen.
+              </p>
+              <button>Contact us </button>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HeroTwo} alt="No image found" />
+          <img src={HeroTwo} alt="hero2" className="header_image" />
+          <div className="overlay-content">
+            <div className="header_image-content">
+              <h4>
+                Welcome to Our <br /> Playschool
+              </h4>
+              <p>
+                we are childcare center committed to providing a safe and <br />
+                nurturing environment for your childgen.
+              </p>
+              <button>Contact us </button>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Herothree} alt="No image found" />
+          <img src={Herothree} alt="hero3" className="header_image" />
+          <div className="overlay-content">
+            <div className="header_image-content">
+              <h4>
+                Welcome to Our <br /> Playschool
+              </h4>
+              <p>
+                we are childcare center committed to providing a safe and <br />
+                nurturing environment for your childgen.
+              </p>
+              <button>Contact us </button>
+            </div>
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>
